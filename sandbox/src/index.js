@@ -33,7 +33,11 @@ const routerConfig = createBrowserRouter([
         element: <Typer />,
       },
       {
-        path: "/weather",
+        path: "/weather/",
+        element: <Weather />,
+      },
+      {
+        path: "/weather/:city",
         element: <Weather />,
       }
     ]
