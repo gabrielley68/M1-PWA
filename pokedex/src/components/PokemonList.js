@@ -38,7 +38,7 @@ function PokemonList(props){
     <div className="row">
       {displayedPokemon.map((pokemon, index) => {
         return (
-          <Link to={"/" + pokemon.name} className="col-2" key={'pokemon-' + index}>
+          <Link to={"/" + pokemon.name} className="col-6 col-lg-2" key={'pokemon-' + index}>
             <div className="card">
               <img src={getImageSrcFromId(getIdFromUrl(pokemon.url))} className="card-img-top"/>
               <div className="card-body">

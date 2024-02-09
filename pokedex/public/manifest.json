@@ -1,0 +1,15 @@
+{
+    "name": "Gabriel's pokedex",
+    "short_name": "PokeGab",
+    "start_url": ".",
+    "icons": [
+        {
+            "src": "/icons/icon_144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "display": "standalone",
+    "id": "live-pokedex-course"
+}

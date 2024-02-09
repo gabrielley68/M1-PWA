@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="container mt-3">
       <Link to="/">
-        <h1 className="text-center">Pokedex en React</h1>
+        <div className="d-flex justify-content-center">
+          <h1 className="d-inline-block">Pokedex en React</h1>
+        </div>
       </Link>
 
       <Outlet />
