@@ -50,7 +50,7 @@ function initDatabase(){
         title VARCHAR(255) NOT NULL,
         body TEXT NOT NULL,
         date VARCHAR(100) NOT NULL,
-        photo VARCHAR(255) NOT NULL
+        photo VARCHAR(255)
     );`;
 
     db.run(createPostsTableQuery, err => {
